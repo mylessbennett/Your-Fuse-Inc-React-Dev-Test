@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './components/NavBar'
-import CryptoList from './components/CryptoList'
+import CryptoGrid from './components/CryptoGrid'
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <CryptoList />
+      <CryptoGrid />
     </div>
   );
 }
